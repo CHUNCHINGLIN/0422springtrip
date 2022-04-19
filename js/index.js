@@ -212,12 +212,12 @@ $("#submitImg7").click(function(){
 
     if(Q7==="150"){
         $('#submit7').html("<img id='submitImg7' src='images/check.png'>");
-        $('#result7').text("平日＄150 / 假日$250");
+        $('#result7').text("平日$150 / 假日$250");
         $("[name='Q7']").attr({'disabled':'true'}); 
         $('#score').text(score+=10);             
     }else{
         $('#submit7').html("<img id='submitImg7' src='images/cancel.png'>"); 
-        $('#result7').text("平日＄150 / 假日$250");  
+        $('#result7').text("平日$150 / 假日$250");  
         $("[name='Q7']").attr({'disabled':'true'});
         $('#score').text(score);   
     }
