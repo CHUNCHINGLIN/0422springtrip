@@ -1,0 +1,350 @@
+body {
+    /* background-image: url("../images/sky.jpg"); */
+    background-size:cover;
+    background-color: #01012c;
+    /* background-blend-mode:multiply; */
+}
+
+/* 標頭 */
+#banner {
+    color:khaki;
+    margin:1vh;
+}
+
+#banner h1{
+    
+    font-size:5vw;
+    text-align: start;
+}
+
+/* 內文 */
+#pic_div{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    
+}
+
+#basic{
+    height:30vh;
+    background-color:rgba(64, 129, 242, 0.3);
+    color:beige;
+    display:flex;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+
+#introduce{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+
+/* 內文圖片 */
+.img{
+    
+    max-height:30vh;
+    max-width:auto;
+    
+}
+
+.img img{
+    /* object-fit: contain; */
+    height:100%;
+    width:auto;
+    border-radius: 10%;
+    border-style: solid;
+    border-color:beige;
+    opacity: 0.8;
+    
+}
+
+.img img:hover{
+    /* animation-name:enlarger,enlarger2;
+    animation-duration:1s,1s;
+    animation-iteration-count:1,1;
+    animation-fill-mode:forwards,forwards; */
+
+    animation: enlarger1 0.5s  forwards;
+
+}
+
+
+
+/* 內文目標 */
+#icon {
+    height:2vh;
+}
+
+#topIcon {
+    height:4vh;
+}
+
+#title{
+    align-items: cneter;
+    text-align:center;
+    margin:auto;
+}
+
+#title h1{
+    margin:2vh 1vw;
+}
+
+#introduce {
+   color:beige; 
+}
+
+#introduce p:hover{
+    transition-property: background-color;
+    background-color: rgba(64, 242, 192, 0.3);
+    font-size: larger;
+}
+
+#content{
+    font-size:2.5vh;
+    line-height: 2vh;
+    margin-top:4vh;
+}
+
+#content p{
+    color:lightcyan;
+}
+
+#content p:hover{
+    
+    font-size: larger;
+}
+
+#qa{
+    color:beige;
+    
+}
+#qa H1{
+    text-align: center;
+}
+
+#footer{
+    color:beige;
+    text-align: center;
+    background-color:rgba(64, 129, 242, 0.3);
+    border-radius: 5%;
+}
+
+
+
+/* 問答 */
+#QLeft{
+    height:10vh;
+    /* background-color:deepskyblue; */
+}
+
+#QMiddle{
+    height:12vh;
+    background-color:rgba(64, 129, 242, 0.3);
+}
+
+#QRight{
+    height:12vh;
+    border-radius: 5%;
+}
+
+
+#submitImg1,#submitImg2,#submitImg3,#submitImg4,#submitImg5,#submitImg6,#submitImg7,#submitImg8{
+    height:90%;
+    width:auto;
+    object-fit: contain;
+    position:absolute;
+    bottom:0;
+    right:0;
+    
+}
+
+#result{
+    color:aliceblue;
+    background-color:rgba(105, 24, 148, 0.709);
+    font-size: larger;
+}
+
+#result p{
+    margin:1vw;
+}
+
+
+
+#fireflyImg{
+    object-fit: contain;
+    height:100%;
+    width:100%;
+   /* animation:firefly_twinkle1 3s forwards; */
+}
+
+#firefly1,#firefly2,#firefly3,#firefly4,#firefly5,#firefly6,#firefly7,#firefly8{
+    height:8vh;
+    width:auto;
+    align-items: center;
+    text-align: right;
+    
+}
+
+
+
+#Q1,#Q2,#Q3,#Q4,#Q5,#Q6,#Q7,#Q8{
+    margin:1vw;
+    /* background-color: cornflowerblue; */
+    position:relative;
+    display: none;
+    color:beige;
+}
+
+#color button{
+    width:12%;
+    height:auto;
+}
+
+#number{
+    color:beige;
+    font-size: 20vh;
+}
+
+#score_div{
+    color:beige;
+    display: flex;
+    align-items: center;
+}
+
+#score{
+    color:red;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+#star{
+    height:4vh;
+    margin-bottom: 1vh;
+    animation: rotate 5s infinite;
+
+}
+
+#hour{
+    height:4vh;
+    margin-bottom: 1vh;
+    animation:hour_clock 5s infinite;
+}
+
+#sparkle img{
+    width:50px;
+    height:auto;
+    /* animation:twinkle 1s infinite; */
+
+}
+
+#sparkle1{
+    top:20vh;
+    left:5vw;
+    position: fixed;
+    animation:twinkle 4s infinite;
+}
+
+#sparkle2{
+    top:70vh;
+    left:25vw;
+    position: fixed;
+    animation:twinkle 2.5s infinite 1s;
+}
+
+#sparkle3{
+    top:40vh;
+    left:33vw;
+    position: fixed;
+    animation:twinkle 1.8s infinite 3s;
+}
+
+#sparkle4{
+    top:50vh;
+    left:58vw;
+    position: fixed;
+    animation:twinkle 4.3s infinite 0.5s;
+}
+
+#sparkle5{
+    top:10vh;
+    left:65vw;
+    position: fixed;
+    animation:twinkle 2.4s infinite 2.5s;
+}
+
+#sparkle6{
+    top:40vh;
+    left:83vw;
+    position: fixed;
+    animation:twinkle 4.2s infinite 1.5s;
+}
+
+#sparkle7{
+    top:80vh;
+    left:93vw;
+    position: fixed;
+    animation:twinkle 3.5s infinite 2s;
+}
+
+
+
+
+
+
+/* 圖片放大 */
+@keyframes enlarger1 {
+    50%{transform: scale(1.2,1.2)}
+    100%{transform:rotate(-15deg)}
+}
+/* 旋轉 */
+@keyframes rotate {
+    
+    100%{transform:rotate(360deg)}
+    
+}
+/* 閃爍 */
+@keyframes twinkle {
+
+    0%{opacity: 0;}
+    100%{opacity: 0.8;}
+    
+}
+/* 沙漏轉 */
+@keyframes hour_clock{
+
+    100%{transform:rotate(180deg)}
+
+}
+
+/* 螢火蟲飛走 */
+@keyframes firefly_twinkle1{
+    0%{opacity: 1;}
+    15%{transform: rotate(30deg);}
+    20%{opacity: 0.6;}
+    40%{opacity: 0.8;}
+    50%{opacity: 0.2;}
+    60%{opacity: 0.4;}
+    80%{transform: translate(-300px,-300px);}
+    100%{opacity: 0;}
+}
+
+
+
+
+
+
+
+
