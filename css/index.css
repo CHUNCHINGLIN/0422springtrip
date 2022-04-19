@@ -1,7 +1,7 @@
 body {
     /* background-image: url("../images/sky.jpg"); */
     background-size:cover;
-    background-color: #01012c;
+    /* background-color: #01012c; */
     /* background-blend-mode:multiply; */
 }
 
@@ -12,7 +12,6 @@ body {
 }
 
 #banner h1{
-    
     font-size:5vw;
     text-align: start;
 }
