@@ -1,7 +1,7 @@
 body {
     /* background-image: url("../images/sky.jpg"); */
     background-size:cover;
-    /* background-color: #01012c; */
+    background-color: #01012c;
     /* background-blend-mode:multiply; */
 }
 
@@ -54,7 +54,7 @@ body {
 .img img{
     /* object-fit: contain; */
     height:100%;
-    width:auto;
+    width:100%;
     border-radius: 10%;
     border-style: solid;
     border-color:beige;
